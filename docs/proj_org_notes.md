@@ -10,10 +10,10 @@ Things to only do once on your system:
 Install Git, create a token (update once every 90 days)
 
 Things to do before each project:
-Create an R Project with GitHub repository 
-usethis::use_git() > usethis::git_default_branch_rename() > usethis::use_github()
-Set up folder structure
-Activate GitHub pages to create a report that you can easily update
+Create an R Project with GitHub repository in R Studio 
+usethis::use_git() > commit all uncommitted files > usethis::git_default_branch_rename() > usethis::use_github(). this should make git and R speak to each other
+Set up folder structure in root folder
+Activate GitHub pages to create a report that you can easily update. to do this, go on github website, under your repo, settings, pages, code and automation, change branch from none to main.
 
 
 
